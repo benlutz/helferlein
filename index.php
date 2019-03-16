@@ -10,18 +10,19 @@
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 
-
-    <title>Ben's Web Helferlein</title>
+    <title>Ben's Web Helpers</title>
   </head>
   <body>
-<?php include('header.php');?>
+    <?php include('header.php');?>
 
-<div class="container-fluid">
-  <div class="col">
-    <?php include('content.php');?>
-  </div>
-</div>
-</div>
+    <div class="container-fluid">
+      <div class="col">
+        <?php include('content.php');?>
+      </div>
+    </div>
+    <div class="footer fixed-bottom">
+      <p class="text-center mt-5 text-muted"><small>© Benjamin Lutz 2019 | <a href="https://www.benjaminlutz.at/">About</a></small></p>
+    </div>
 
 
   </body>

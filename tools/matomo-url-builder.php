@@ -2,42 +2,42 @@
   <div class="card-body">
     <h2 class="card-title">Matomo URL Builder</h2>
     <h6 class="card-subtitle text-muted">Create you Tracking URLs for Matomo</h3>
-    <form>
+    <form class="text-white">
       <div class="form-row my-2">
         <div class="col">
-          <input type="text" class="form-control" placeholder="Website URL" id="Matomo-Website-URL">
+          <input type="text" class="form-control" placeholder="Website URL" id="Matomo-Website-URL" autocomplete="off">
         </div>
       </div>
       <div class="form-row my-2">
         <div class="col">
-          <input type="text" class="form-control" placeholder="Campaign name" id="Matomo-Campaign-Name">
+          <input type="text" class="form-control" placeholder="Campaign name" id="Matomo-Campaign-Name" autocomplete="off">
         </div>
       </div>
       <div class="form-row my-2">
         <div class="col">
-          <input type="text" class="form-control" placeholder="Campaign keyword" id="Matomo-Campaign-Keyword">
+          <input type="text" class="form-control" placeholder="Campaign keyword" id="Matomo-Campaign-Keyword" autocomplete="off">
         </div>
       </div>
       <div class="form-row my-2">
         <div class="col">
-          <input type="text" class="form-control" placeholder="Campaign source" id="Matomo-Campaign-Source">
+          <input type="text" class="form-control" placeholder="Campaign source" id="Matomo-Campaign-Source" autocomplete="off">
         </div>
       </div>
       <div class="form-row my-2">
         <div class="col">
-          <input type="text" class="form-control" placeholder="Campaign medium" id="Matomo-Campaign-Medium">
+          <input type="text" class="form-control" placeholder="Campaign medium" id="Matomo-Campaign-Medium" autocomplete="off">
         </div>
       </div>
       <div class="form-row my-2">
         <div class="col">
-          <input type="text" class="form-control" placeholder="Campaign content" id="Matomo-Campaign-Content">
+          <input type="text" class="form-control" placeholder="Campaign content" id="Matomo-Campaign-Content" autocomplete="off">
         </div>
       </div>
       <div class="form-row my-2">
         <div class="col">
-          <button type="submit" class="btn btn-primary" onclick="CreateMatomoURL()">Generate URL</button>
-          <button type="submit" class="btn btn-secondary" onclick="ClearMatomoURL()">Clear</button>
-          <button type="submit" class="btn btn-secondary" onclick="CopyToClipboard()"><i class="far fa-copy"></i> Copy to Clipboard</button>
+          <a class="btn btn-primary mt-1" onclick="CreateMatomoURL()">Generate URL</a>
+          <a class="btn btn-secondary mt-1" onclick="ClearMatomoURL()">Clear</a>
+          <!-- <a class="btn btn-secondary mt-1" onclick="CopyToClipboard()"><i class="far fa-copy"></i> Copy to Clipboard</a> -->
         </div>
       </div>
       <div class="form-row my-2">

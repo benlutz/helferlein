@@ -2,17 +2,17 @@
   <div class="card-body">
     <h2 class="card-title">Encode or Decode URLs</h2>
     <h6 class="card-subtitle text-muted">Encode or Decode URLs with a click of a button.</h3>
-    <form>
-      <div class="form-row my-2">
+    <form class="text-white">
+      <div class="form-row my-2" >
         <div class="col">
-          <input type="text" class="form-control" placeholder="Paste URL" id="URL-Input">
+          <input type="text" class="form-control" placeholder="Paste URL" id="URL-Input" autocomplete="off">
         </div>
       </div>
         <div class="form-row my-2">
         <div class="col">
-          <button type="submit" class="btn btn-primary" onclick="Encode()">Encode</button>
-          <button type="submit" class="btn btn-primary" onclick="Decode()">Decode</button>
-          <button type="submit" class="btn btn-secondary" onclick="CopyToClipboard()"><i class="far fa-copy"></i> Copy to Clipboard</button>
+          <a class="btn btn-primary mt-1" onclick="Encode()">Encode</a>
+          <a class="btn btn-primary mt-1" onclick="Decode()">Decode</a>
+          <!-- <a class="btn btn-secondary mt-1" onclick="CopyToClipboard()"><i class="far fa-copy"></i> Copy to Clipboard</a> -->
         </div>
       </div>
       </div>
