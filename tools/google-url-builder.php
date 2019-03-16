@@ -42,7 +42,7 @@
       </div>
       <div class="form-row my-2">
         <div class="col">
-          <input type="text" class="form-control" placeholder="" id="Google-Tracking-URL-Output" disabled>
+          <input type="text" class="form-control" placeholder="" id="Google-Tracking-URL-Output" autocomplete="off">
         </div>
       </div>
     </form>
