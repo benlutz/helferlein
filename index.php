@@ -16,7 +16,7 @@
     <?php include('header.php');?>
     <div class="container-fluid">
       <div class="row">
-      <div class="col-2">
+      <div class="col-md-2">
         <?php include('sidebar.php');?>
       </div>
       <div class="col">
