@@ -12,15 +12,19 @@
 
     <title>Ben's Web Helpers</title>
   </head>
-  <body>
+  <body data-spy="scroll" data-target="#navbar-scroll">
     <?php include('header.php');?>
-
     <div class="container-fluid">
+      <div class="row">
+      <div class="col-2">
+        <?php include('sidebar.php');?>
+      </div>
       <div class="col">
         <?php include('content.php');?>
       </div>
     </div>
-    <div class="footer fixed-bottom">
+  </div>
+    <div class="footer mt-5">
       <p class="text-center mt-5 text-muted"><small>© Benjamin Lutz 2019 | <a href="https://www.benjaminlutz.at/">About</a></small></p>
     </div>
 

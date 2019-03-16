@@ -2,7 +2,7 @@
   <div class="card-body">
     <h2 class="card-title">Matomo URL Builder</h2>
     <h6 class="card-subtitle text-muted">Create you Tracking URLs for Matomo</h3>
-    <form class="text-white">
+    <form class="">
       <div class="form-row my-2">
         <div class="col">
           <input type="text" class="form-control" placeholder="Website URL" id="Matomo-Website-URL" autocomplete="off">
@@ -35,8 +35,8 @@
       </div>
       <div class="form-row my-2">
         <div class="col">
-          <a class="btn btn-primary mt-1" onclick="CreateMatomoURL()">Generate URL</a>
-          <a class="btn btn-secondary mt-1" onclick="ClearMatomoURL()">Clear</a>
+          <a class="btn btn-primary mt-1 text-white" onclick="CreateMatomoURL()">Generate URL</a>
+          <a class="btn btn-secondary mt-1 text-white" onclick="ClearMatomoURL()">Clear</a>
           <!-- <a class="btn btn-secondary mt-1" onclick="CopyToClipboard()"><i class="far fa-copy"></i> Copy to Clipboard</a> -->
         </div>
       </div>
